@@ -41,6 +41,6 @@ def normalizing_code(code: str) -> str:
     tree = ast.parse(code)
     remove_docstring(tree)
     sort_methods(tree)
-    normalized_code = ast.dump(tree)
+    normalized_code = ast.dump(tree).lower()
 
     return normalized_code

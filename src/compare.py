@@ -39,7 +39,6 @@ def main() -> None:
         code2 = read_code(file2)
         score = compute_plagiarism(code1, code2)
         scores.append(str(score))
-        print(score)
 
     with open(scores_file, 'w') as f:
         f.writelines('\n'.join(scores))
