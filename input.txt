@@ -1,0 +1,5 @@
+data/files/main.py data/plagiat1/main.py
+data/files/main.py data/plagiat2/main.py
+data/files/add_constant.py data/plagiat1/add_constant.py
+data/files/add_constant.py data/plagiat2/add_constant.py
+data/files/main.py data/plagiat1/add_constant.py
